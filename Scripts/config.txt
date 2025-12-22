@@ -1,0 +1,14 @@
+LOC="/home/$USER/Projet"
+
+OUT="$LOC/Output"
+
+ACTE="$OUT/ACTE"
+PERS="$OUT/PERSO"
+
+DATA="$LOC/Data"
+
+BRUT="$DATA/input.txt"
+INPUT="$DATA/clean.txt"
+
+LIST="$DATA/list_acte.txt"
+LISTP="$DATA/list_perso.txt"
