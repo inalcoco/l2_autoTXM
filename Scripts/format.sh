@@ -7,7 +7,7 @@ last_line="Notes \[from 1890 edition\]"
 
 echo "Nettoyage: Enlever mention legale et introduction"
 echo "Nettoyage: Enlever lignes blancs et tabulations"
-
+echo "Nettoyage: MAJUSCULE en minuscule"
 sed "1,/^$first_line/d; 
      /^$last_line/,\$d; 
      s/--\+//g; 

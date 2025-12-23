@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Meme fonctionnement que la decoupage en acte
+
 source config.txt
 
 mkdir -p "$PERS"

@@ -17,7 +17,7 @@ for script in "${scripts[@]}"; do
         
         # Erreur-management
         if [[ $? -ne 0 ]]; then
-            echo "Erreur: $script n'excute pas."
+            echo "Erreur: $script n'a pas ete completer."
             exit 1
         fi
     else
